@@ -56,8 +56,8 @@ alert('Привет, это первая программа'); // коммент
 // let a3 = 2;
 // alert(a3 ** 10);
 
-// let str1 = 'Анна';
-// let str2 = 'Елфимова';
+// let str1 = 'Полина';
+// let str2 = 'Рухмакова';
 // alert(str1);
 // alert(str2);
 
@@ -141,11 +141,11 @@ alert('Привет, это первая программа'); // коммент
 // let n4  = '5.5px', n5 = '6.25px';
 // alert(parseFloat(n4) + parseFloat(n5) + 'px');
 
-// let m = 123, mm = 123;
-// alert(String(m) + String(mm));
-
 // let r1 = 10023;
 // alert(String(r1).length);
+
+// let m = 123, mm = 123;
+// alert(String(m) + String(mm));
 
 // let r2 = 10023, r3 = 11110;
 // alert(String(r2).length + String(r3).length);
