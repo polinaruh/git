@@ -1,5 +1,5 @@
 "use strict"
-alert('Привет, это первая программа'); // комментарий 
+// alert('Привет, это первая программа'); // комментарий 
 /* комментарий 2 */
 // let num;
 // num = 123;
@@ -570,3 +570,707 @@ alert('Привет, это первая программа'); // коммент
 
 // let obj = {x: 1, y: 2, z: 3};
 // console.log(Object.keys(obj).length);
+
+/*УСЛОВИЯ*/
+
+// let test1 = 18;
+// if (test1 > 10) {
+// 	console.log('+++'); 
+// } else {
+// 	console.log('---');
+// }
+
+// let test2 = 25;
+// if (test2 < 10) {
+// 	console.log('+++'); 
+// } else {
+// 	console.log('---');
+// }
+
+// let test3 = 8;
+// if (test3 >= 10) {
+// 	console.log('+++'); 
+// } else {
+// 	console.log('---');
+// }
+
+// let test4 = 100;
+// if (test4 <= 10) {
+// 	console.log('+++'); 
+// } else {
+// 	console.log('---');
+// }
+
+// let test5 = 10;
+// if (test5 == 10) {
+// 	console.log('+++'); 
+// } else {
+// 	console.log('---');
+// }
+
+// let test6 = 1;
+// if (test6 != 10) {
+// 	console.log('+++'); 
+// } else {
+// 	console.log('---');
+// }
+
+// let test1 = 15;
+// let test2 = 27;
+
+// if (test2 > test1) {
+// 	console.log('Больше переменная test2'); 
+// } else {
+// 	console.log('Больше переменная test1');
+// }
+
+// let test1 = 15;
+// let test2 = 27;
+
+// if (test2 == test1) {
+// 	console.log('Переменные равны'); 
+// } else {
+// 	console.log('Переменные не равны');
+// }
+
+// let test1 = 'abcdf';
+// let test2 = 'jytgb';
+
+// if (test2 == test1) {
+// 	console.log('Переменные равны'); 
+// } else {
+// 	console.log('Переменные не равны');
+// }
+
+// let test1 = '123';
+// let test2 = 123;
+// if (test2 == test1) {
+// 	console.log('Переменные равны'); 
+// } else {
+// 	console.log('Переменные не равны');
+// }
+
+// let num = 6;
+
+// if (num > 0 && num < 5) {
+// 	console.log('+++');
+// } else {
+// 	console.log('---');
+// }
+
+// let num = 6;
+
+// if (num >= 10 && num <= 20) {
+// 	console.log('+++');
+// } else {
+// 	console.log('---');
+// }
+
+// let num1 = 5;
+// let num2 = 3;
+
+// if (num1 <= 1 && num2 >= 3) {
+// 	console.log('+++');
+// } else {
+// 	console.log('---');
+// }
+
+// let num = 3;
+		
+// if ((num > 5 && num < 10) || num == 20) {
+// 	console.log('+++');
+// } else {
+// 	console.log('---');
+// }
+
+// let num = 3;
+		
+// if (num > 5 || (num > 0 && num < 3)) {
+// 	console.log('+++');
+// } else {
+// 	console.log('---');
+// }
+
+// let num = 3;
+		
+// if (num == 9 || (num > 10 && num < 20) || (num > 20 && num < 30)) {
+// 	console.log('+++');
+// } else {
+// 	console.log('---');
+// }
+
+// if (!(num1 >= 0 || num2 <= 10)) {
+// 	console.log('+++');
+// } else {
+// 	console.log('---');
+// }
+
+// let test = true;
+
+// if (test === true) {
+// 	console.log('+++');
+// } else {
+// 	console.log('---');
+// }
+
+// let test = true;
+
+// if (test === false) {
+// 	console.log('+++');
+// } else {
+// 	console.log('---');
+// }
+
+// 0, -0, +0, null, fase, NaN, undefined, ' '
+
+// let test = true;
+
+// if (test) {
+// 	console.log('+++');
+// } else {
+// 	console.log('---');
+// }
+
+// let test = true;
+
+// if (!test) {
+// 	console.log('+++');
+// } else {
+// 	console.log('---');
+// }
+
+// let test = true;
+
+// if (!test) {
+// 	console.log('+++');
+// } else {
+// 	console.log('---');
+// }
+
+// let test = true;
+
+// if (test) {
+// 	console.log('+++');
+// } else {
+// 	console.log('---');
+// }
+
+// let test1 = true;
+// let test2 = true;
+
+// if (test1 && test2) {
+// 	console.log('+++');
+// } else {
+// 	console.log('---');
+// }
+
+// let test1 = true;
+// let test2 = true;
+
+// if (test1 && !test2) {
+// 	console.log('+++');
+// } else {
+// 	console.log('---');
+// }
+
+// let test1 = true;
+// let test2 = true;
+
+// if (!test1 && !test2) {
+// 	console.log('+++');
+// } else {
+// 	console.log('---');
+// }
+
+// let test1 = true;
+// let test2 = true;
+
+// if (test1 && test2) {
+// 	console.log('+++');
+// } else {
+// 	console.log('---');
+// }
+
+// let test1 = true;
+// let test2 = true;
+// let test3 = true;
+
+// if (test1 && test2 && test3) {
+// 	console.log('+++');
+// } else {
+// 	console.log('---');
+// }
+
+// let test1 = true;
+// let test2 = true;
+// let test3 = true;
+
+// if (test1 || test2 && test3) {
+// 	console.log('+++');
+// } else {
+// 	console.log('---');
+// }
+
+// let test1 = true;
+// let test2 = true;
+// let test3 = true;
+
+// if (test1 || !test2 && !test3) {
+// 	console.log('+++');
+// } else {
+// 	console.log('---');
+// }
+
+// let test = 1;
+
+// if (test == 10) {
+// 	console.log('yes');
+// }
+
+// if (test > 0) console.log('+++'); else console.log('---');
+
+// if (test > 0) console.log('+++');
+
+// let day  = 15;
+
+// if (day > 1 && day <=10) {
+// 	console.log('Первая декада');
+// } else if (day > 11 && day <=20) {
+// 	console.log('Вторая декада');
+// } else if (day > 21 && day <=31) {
+// 	console.log('Третья декада');
+// }
+
+// let day  = 55;
+
+// if (day < 1 && day >=10) {
+// 	console.log('Первая декада');
+// } else if (day < 10 && day >=20) {
+// 	console.log('Вторая декада');
+// } else if (day < 20 && day >=31) {
+// 	console.log('Третья декада');
+// }else {
+// 	console.log('неверное значение переменной day');
+// }
+
+// let num = 15;
+
+// if (num > 10 && num < 99) {
+//     let sum = Number(String(num)[0]) + Number(String(num)[1]);
+
+// 	if (sum <= 9) {
+// 		console.log('сумма цифр однозначна');
+// 	} else {
+// 		console.log('сумма цифр двухзначна');
+// 	}
+// } 
+
+// let lang = 'ru';
+// switch (lang) {
+// 	case 'ru':
+// 		console.log('рус');
+// 	break;
+// 	case 'en':
+// 		console.log('анг');
+// 	break;
+// 	case 'de':
+// 		console.log('нем');
+// 	break;
+// 	default:
+// 		console.log('язык не поддерживается');
+// 	break;
+// }
+
+// let num = 1;
+// let res = num >= 0 ? '1': '2';
+// console.log(res);
+
+// let a = 2 * (3 - 1);
+// let b = 6 - 2;
+// console.log(a==b)
+
+// let a = 5 * (7 - 4);
+// let b = 1 + 2 + 7;
+// console.log(a > b)
+
+// let a = 2 ** 4;
+// let b = 4 ** 2;
+// console.log(a != b)
+
+// let ok = confirm('Есть ли вам 18 лет?');
+
+// if (ok) {
+// 	alert('текстом для взрослых');
+// } else {
+// 	alert('доступ пользователю запрещен');
+// }
+
+// let age = 17;
+// let adult;
+// if (age >= 18) {
+// 	adult = true;
+// } else {
+// 	adult = false;
+// }
+
+// console.log(adult);
+
+// let age = 17;
+// let adult;
+
+// if (age >= 18) {
+// 	adult = true;
+// } else {
+// 	adult = false;
+// }
+
+// console.log(adult);
+
+
+// let age = 17;
+// let adult;
+
+// if (age >= 18) {
+// 	adult = true;
+// } else {
+// 	adult = false;
+// }
+
+// console.log(adult);
+
+
+// let age = 17;
+// let res;
+
+// if (age >= 18) {
+// 	if (age <= 23) {
+// 		res = 'от 18 до 23';
+// 	} else {
+// 		res = 'больше 23';
+// 	}
+// } else {
+// 	res = 'меньше 18';
+// }
+
+// console.log(res);
+
+
+// let age = 19;
+// let res;
+
+// if (age >= 18) {
+// 	if (age <= 23) {
+// 		res = 'от 18 до 23';
+// 	} else {
+// 		res = 'больше 23';
+// 	}
+// } else {
+// 	res = 'меньше 18';
+// }
+
+// console.log(res);
+
+
+// let min = 40;
+
+// if (min >= 0 && min <= 20) {
+// 	console.log('1 треть');
+// }
+
+// if (min >= 21 && min <= 40) {
+// 	console.log('2 треть');
+// }
+
+// if (min >= 41 && min <= 60) {
+// 	console.log('3 треть');
+// }
+
+
+// let str = '123';
+
+// if (str.length == 3) {
+// 	console.log(Number(String(str)[0]) + Number(String(str)[1]) + Number(String(str)[2]));
+// }
+
+
+// let str = 'a2345';
+
+// if (str[0] == 'a') {
+// 	console.log('!');
+// }
+
+
+// let str = '1234x';
+// let last = str[str.length - 1];
+
+// if (last == 'x') {
+// 	console.log('!');
+// }
+
+
+// let str = 'a234b';
+// let last = str[str.length - 1];
+// if (str[0] == 'a' && last == 'b') {
+//     console.log('!');
+// }
+
+
+// let num = 12345;
+// let last = String(num)[String(num).length - 1];
+
+// if (last == 0 ) {
+// 	console.log('+++');
+// } else {
+// 	console.log('---');
+// }
+
+
+// let num = 1234;
+// let last = String(num)[String(num).length - 1];
+
+// if (last == 0 || last == 2 || last == 4 || last == 6 || last == 8) {
+// 	console.log('чётное');
+// } else {
+// 	console.log('нечётное');
+// }
+
+
+// let a = 10;
+// let rest = a % 2;
+
+// if (rest === 0) {
+//   console.log('четное');
+// } else {
+//   console.log('нечетное');
+// }
+
+// let a = 20;
+// let rest = a % 3;
+
+// if (rest === 0) {
+//   console.log('делится на 3');
+// } else {
+//   console.log('не делится на 3');
+// }
+
+
+// let num1 = 1;
+// let num2 = 2;
+
+// if ((num1 + num2) === 3) {
+// 	console.log('+++');
+// } else {
+// 	console.log('---');
+// }
+
+
+// let num1 = 1;
+// let num2 = 2;
+
+// if (Number(num1) + Number(num2) === 3) {
+// 	console.log('+++');
+// } else {
+// 	console.log('---');
+// }
+
+
+// let num1 = '1';
+// let num2 = '2';
+
+// if (Number(num1) + Number(num2) === 3) {
+// 	console.log('+++');
+// } else {
+// 	console.log('---');
+// }
+
+
+// let num = 123;
+
+// if (Number(String(num[0])) === 1) {
+// 	console.log('+++');
+// } else {
+// 	console.log('---');
+// }
+
+
+// let num = 123;
+
+// if (Number(String(num[0])) === 1) {
+// 	console.log('+++');
+// } else {
+// 	console.log('---');
+// }
+
+
+// let num = 123;
+
+// if (Number(String(num[0])) === 1) {
+// 	console.log('+++');
+// } else {
+// 	console.log('---');
+// }
+
+
+// let num = 123;
+// let first = String(num)[0];
+// if (Number(first) === 1) {
+// 	console.log('+++');
+// } else {
+// 	console.log('---');
+// }
+
+
+// let num = 22;
+
+// if (String(num.length) === 2) {
+// 	console.log('+++');
+// } else {
+// 	console.log('---');
+// }
+
+
+// let num = 12;
+
+// if (String(num).length === 2) {
+// 	console.log('+++');
+// } else {
+// 	console.log('---');
+// }
+
+
+// let num = '123033'; // берем в кавычки, чтобы обращаться к цифрам 
+
+// let sum1 = Number(num[0]) + Number(num[1]) + Number(num[2]); 
+// let sum2 = Number(num[3]) + Number(num[4]) + Number(num[5]); 
+
+// if (sum1 == sum2) {
+// 	console.log('суммы равны');
+// } else {
+// 	console.log('суммы не равны');
+// }
+
+// let month = 10;
+// if (month==1 || month==2 || month==12) {
+//     console.log('зима')
+// }
+// if (month==3 || month==4 || month==5) {
+//     console.log('весна')
+// }
+// if (month==6 || month==7 || month==8) {
+//     console.log('лето')
+// }
+// if (month==9 || month==10 || month==11) {
+//     console.log('осень')
+// }
+
+
+// let str = 'a234b';
+// if (str[0] == 'a' ) {
+//     console.log('да');
+// }
+// else{
+//     console.log('нет')
+// }
+
+// let str = '1234b';
+// if (str[0] == '1' || str[0] == '2' || str[0] == '3' ) {
+//     console.log('да');
+// }
+// else{
+//     console.log('нет')
+// }
+
+
+// let str = '123';
+
+// if (str.length == 3) {
+// 	console.log(Number(String(str)[0]) + Number(String(str)[1]) + Number(String(str)[2]));
+// }
+
+
+// let num = '183033'; // берем в кавычки, чтобы обращаться к цифрам 
+
+// let sum1 = Number(num[0]) + Number(num[1]) + Number(num[2]); 
+// let sum2 = Number(num[3]) + Number(num[4]) + Number(num[5]); 
+
+// if (sum1 == sum2) {
+// 	console.log('да');
+// } else {
+// 	console.log('нет');
+// }
+
+/* ЦИКЛЫ */
+
+// let arr = ['a', 'b', 'c', 'd', 'e'];
+// for (let elem of arr) {
+// 	console.log(elem);
+// }
+
+
+// let obj = {x: 1, y: 2, z: 3};
+// for (let key in obj) {
+// 	console.log(key); 
+// }
+// for (let key in obj) {
+// 	console.log(obj[key]); 
+// }
+
+
+// let i = 1;
+
+// while (i <= 100) {
+// 	console.log(i);
+// 	i++;
+// }
+
+
+// for(let i=1; i<=100; i++){
+//     console.log(i);
+// }
+
+
+// let arr = ['a', 'b', 'c', 'd', 'e'];
+// for (let i = 0; i < arr.length; 
+// 	i++) { 
+// 	console.log(arr[i]);
+// }
+// for (let i = 1; i < arr.length -1; i++) { 
+// 	console.log(arr[i]);
+// }
+
+
+// let arr = ['a', 'b', 'c', 'd', 'e'];
+		
+// for (let  i = arr.length -1; i >= 0; i--) { 
+// 	console.log(arr[i]);
+// }
+
+
+// let arr = [2, 5, 9, 15, 1, 4];
+// for (let elem of arr) {
+// 	if (elem >3 && elem<10) {
+// 		console.log(elem);
+// 	}
+// }
+
+// let res=0;
+// for (let i=2; i<=100; i++){
+//     res+=i;
+// }
+// console.log(res);
+
+// let arr = [2, 5, 9, 3, 1, 4];
+// let res = 0;
+
+// for (let elem of arr) {
+// 	res += elem;
+// }
+
+// console.log(res);
+
+
+// let str='';
+// for (let i=0; i<=5; i++ ){
+//     str +='-';
+// }
+// console.log(str);
