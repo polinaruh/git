@@ -1,5 +1,4 @@
 // let i = 1;
-
 // while (i <= 100) {
 // 	console.log(i);
 // 	i++;
@@ -78,15 +77,11 @@
 // console.log(average);
 
 
-// function factorial(n) {
-//     if (n === 0) {
-//       return 1;
-//     } else {
-//       return n * factorial(n - 1);
-//     }
-// }
-// const num = 0;
-// console.log(`Факториал числа ${num} равен ${factorial(num)}`);
+//  let res = 1;
+//  for (let elem of arr) {
+//      res = res * elem;
+//  }
+//  console.log(res);
 
 
 // let arr = [];
@@ -116,12 +111,12 @@
 // }
 
 
-// !!!!!!!!!!!!!!!
+
 // let arr=[2, 5 , 6, 57, 21]
 // for (let i = arr.length - 1; i >= 0; i--) {
-// 	arr.push(arr[i]);
+//   console.log(arr);
 // }
-// console.log(arr);
+
 
 
 // let arr = [7, 1, 2, 3, 4, 5];
@@ -196,7 +191,6 @@
 // 		obj[key] += obj[key] * 0.1;
 // 	}
 // }
-
 // console.log(obj);
 
 
@@ -256,9 +250,9 @@
 // console.log(obj); 
 
 
-let arr = ['a', 'b', 'c', 'd', 'e'];
-let obj = {};
-for (let i = 0; i < arr.length; i++) {
-  obj[arr[i]] = i + 1;
-}
-console.log(obj); 
+// let arr = ['a', 'b', 'c', 'd', 'e'];
+// let obj = {};
+// for (let i = 0; i < arr.length; i++) {
+//   obj[arr[i]] = i + 1;
+// }
+// console.log(obj); 
